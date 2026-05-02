@@ -1,0 +1,13 @@
+.following-button {
+    font-weight: bolder;
+    color: #0f1419;
+    background-color: white;
+
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border: solid 1px;
+    border-color: #cfd9de;
+    border-radius: 20px;
+}
