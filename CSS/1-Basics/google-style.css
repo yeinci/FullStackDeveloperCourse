@@ -1,0 +1,27 @@
+
+.main {
+    margin-top: 50px;
+}
+
+.logo-img {
+    display: block; /*for blocking available space at right of this element */
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    display: block;
+    width: 229px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
