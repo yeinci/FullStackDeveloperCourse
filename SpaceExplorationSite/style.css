@@ -1,0 +1,49 @@
+@font-face {
+    font-family: sterion;
+    src: url(Sterion-BLLld.ttf);
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+
+    text-align: center;
+    margin-top:  24px;
+    font-family: sterion;
+}
+
+#logo {
+    width: 120px;
+    margin-bottom: 24px;
+}
+
+.apply-btn {
+    border: none;
+    background-color: white;
+    padding: 6px 12px;
+    font: inherit;
+    color: #00003F;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.hero {
+    padding:50px 0 50px 0;
+    color: #383894;
+    background-image: url("./images/Earth.jpg");
+    background-size: cover;
+    text-shadow: 5px 5px 5px #00003F;
+}
