@@ -1,0 +1,101 @@
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey", cursive;
+
+    background: linear-gradient(pink, #a2d2ff);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 8px solid white;
+    border-radius: 12px;
+    background: url(images/gift-cover.jpg) center / cover no-repeat;
+}
+
+#gift-img-happy:hover {
+    background: url(images/pat.gif) center / cover no-repeat;
+}
+
+#gift-img-hot:hover {
+    background: url(images/freaky.gif);
+    background-size: cover;
+    background-position: 0 80%;
+}
+
+#gift-img-word:hover {
+    background: url(images/queen.png) center / cover no-repeat;
+}
+
+#gift-img-badass:hover {
+    background: url(images/middle.gif) center / cover no-repeat;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background: url(images/kiss.gif);
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+#bday-age {
+    padding: 6px 12px;
+    border-radius: 12px;
+    margin: 16px 0 0 0;
+    
+    background-color: #a2d2ff;
+}
+
+#bday-date {
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 16px 0 0 0;
+    
+    background-color: #a2d2ff;
+}
+
+#battle-card-img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 25%;
+    border: 8px solid #a2d2ff;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 30px;
+}
