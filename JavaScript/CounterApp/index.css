@@ -1,0 +1,21 @@
+.center {
+    text-align: center;
+}
+
+.btn {
+    background-color: gainsboro;
+    font-weight: 700;
+    font-size: medium;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+}
+
+.btn:active {
+    background-color:bisque;
+    transform: scale(0.95);
+}
