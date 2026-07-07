@@ -1,0 +1,154 @@
+@font-face {
+    font-family: portal;
+    src: url(portal.ttf);
+}
+
+:root {
+  --bg-primary: #0B1020;
+  --bg-secondary: rgb(21, 27, 47);
+
+  --accent-blue: rgba(57, 198, 244, 0.5);
+  --accent-orange: rgb(255, 138, 61);
+
+  --text-primary: #EAF2FF;
+  --text-secondary: #94A3B8;
+
+  --danger: #FF4D5A;
+  --success: #58D68D;
+}
+
+body {
+    text-align: center;
+    background:linear-gradient(#0B1020, rgb(36, 46, 78));
+    
+    font-family: portal, arial;
+}
+
+#hero {
+    margin: 0;
+    background-image: url(images/aperture-laboratories.png);
+    background-size: cover;
+    background-position: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    max-width: 1000px;
+    border-top: 4px solid var(--accent-blue);
+    text-shadow: 1px 1px 1px black;
+    color: var(--text-primary);
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(36, 46, 78);
+}
+
+#steps-section-title {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#steps-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#guide-card {
+    display: flex;
+    justify-content: space-around;
+
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+}
+
+.guide-avatar {
+    width: 200px;
+    margin: 0 auto 20px;
+    aspect-ratio: 1 / 1;
+    border: 3px solid rgb(148, 81, 37);
+    border-radius: 10px;
+}
+
+.guide-description {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 350px;
+    margin: 0 auto 20px;
+    padding: 0 10px;
+}
+
+.step-container {
+    width: 240px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+}
+
+.step-title {
+    width: 200px;
+    margin: 20px auto 20px;
+}
+
+.step-img {
+    width: 200px;
+    margin: 0 auto 20px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 3px solid rgb(148, 81, 37);
+    border-radius: 50%;
+}
+
+.step-description-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-description {
+    padding: 10px;
+}
+
+#hero-logo {
+    width: 240px;
+    margin: 20px auto;
+}
+
+#hero-title {
+    margin: 0px auto 5px;
+    padding: 4px 12px;
+    background-color: rgba(57, 198, 244, 0.5);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+}
+
+#hero-captivating-line-1 {
+    margin: 10px auto 320px;
+    padding: 4px 12px;
+    background-color: rgba(255, 138, 61, 0.5);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+}
+
+#hero-captivating-line-2 {
+    text-shadow: 0px 0px 200px black;
+    color: var(--text-primary);
+    margin: 0 auto 10px;
+    padding: 5px 10px;
+    background-color: rgba(21, 27, 47, 0.5);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 5px;
+}
