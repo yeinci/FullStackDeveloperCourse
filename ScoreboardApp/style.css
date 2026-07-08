@@ -1,0 +1,68 @@
+@font-face {
+    font-family: sevenSegmentDisplay;
+    src: url(7segment.ttf);
+}
+
+@font-face {
+    font-family: akira;
+    src: url(Akira\ Expanded\ Demo.otf);
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    font-family: akira;
+    background-color: #182042;
+    color: azure;
+    text-align: center;
+    padding: 40px;
+}
+
+.screen {
+    font-family: sevenSegmentDisplay;
+    background-color: black;
+    color: red;
+    border-radius: 8px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer-screen {
+    width: 360px; /* ybıjnokml */
+    margin: 20px auto;
+    padding: 8px 16px;
+    font-size: xx-large;
+}
+
+.score-screen {
+    width: 160px;
+    padding: 24px 0px;
+}
+
+.btn {
+    background: none;
+    border: 1px solid azure;
+    color: azure;
+    font-family: sevenSegmentDisplay;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.btn:active {
+    background-color: rgba(255, 255, 255, 0.48);
+    transform: translateY(1px);
+}
+
+.restart-btn {
+    margin-top: 25px;
+    font-family: akira;
+    font-size: 16px;
+}

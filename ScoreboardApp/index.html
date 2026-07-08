@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scoreboard App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="timer" class="screen timer-screen">00 : 00 . 000</h1>
+    <div id="content">
+        <div>
+            <h1>HOME</h1>
+            <h1 id="home-score-el" class="screen score-screen">0</h1>
+            <button class="btn" onclick="homePlus1()">+1</button>
+            <button class="btn" onclick="homePlus2()">+2</button>
+            <button class="btn" onclick="homePlus3()">+3</button>
+        </div>
+        <div>
+            <h1>GUEST</h1>
+            <h1 id="guest-score-el" class="screen score-screen">0</h1>
+            <button class="btn" onclick="guestPlus1()">+1</button>
+            <button class="btn" onclick="guestPlus2()">+2</button>
+            <button class="btn" onclick="guestPlus3()">+3</button>
+        </div>
+    </div>
+    <button class="btn restart-btn" onclick="restart()">Restart The Board</button>
+    <script src="script.js"></script>
+</body>
+</html>
