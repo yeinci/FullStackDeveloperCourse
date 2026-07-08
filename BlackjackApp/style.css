@@ -1,0 +1,91 @@
+@font-face {
+    font-family: russo-one;
+    src: url(RussoOne-Regular.ttf);
+}
+
+body {
+    background-image: url(green-background.jpg);
+    text-align: center;
+    font-family: russo-one;
+    max-width: 500px;
+    margin: auto;
+}
+
+.title {
+    color:darkorange;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px black;
+    margin: 24px;
+}
+
+.box {
+    font-size: 24px;
+    background-color: brown;
+    padding: 6px 0;
+    width: 280px;
+    margin: 12px auto 12px auto;
+    border: 2px dashed darkorange;
+    border-radius: 8px;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+}
+
+.players-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.player {
+    font-size: 20px;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+.player-title {
+    font-size: 28px;
+    color: darkorange;
+    margin-top: 4px;
+}
+
+#player-cards, #player-sum, #dealer-cards, #dealer-sum {
+    margin: 4px 4px 16px 4px;
+}
+
+
+.btn {
+    font-family: russo-one;
+    background-color: #ff8c00;
+    font-size: 20px;
+    padding: 4px 12px;
+    margin: 4px;
+    border: 2px dashed orangered;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #dd8c00;
+}
+
+.btn:active {
+    background-color: #bb8c00;
+    transform: translateY(2px);
+}
+
+.input {
+    width: 200px;
+    font-family: russo-one;
+    background-color: #ff8c00;
+    font-size: 20px;
+    padding: 4px 8px;
+    margin: 4px;
+    border: 2px dashed orangered;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.input::placeholder {
+    color: #00000080;
+}
