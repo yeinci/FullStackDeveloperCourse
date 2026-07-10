@@ -1,0 +1,56 @@
+.orange {
+    color: orange;
+}
+
+body {
+    background-color: darkslategrey;
+    text-align:start;
+    padding: 40px;
+}
+
+#title {
+    color: azure;
+    text-shadow: 0px 0px 2px black;
+    margin: 0;
+}
+
+h2 {
+    color: gainsboro;
+}
+
+button {
+    background-color: orange;
+    color: gainsboro;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 0px 0px 2px black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+button:active {
+    transform:  translateY(1px);
+}
+
+.hr {
+    border-color: slategray;
+    margin: 40px;
+}
+
+#password {
+    width: 160px;
+    background-color: slategrey;
+    padding: 15px;
+    min-height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color:  azure;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px black;
+}
